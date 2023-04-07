@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
-	"github.com/gonejack/mhtml-to-html/cmd"
+	"github.com/stepisk/mhtml-to-pdf/cmd"
 )
 
 func main() {
-	var c cmd.MHTMLToHTML
+	c := &cmd.MHTMLToPdf{}
 	if e := c.Run(); e != nil {
 		log.Fatal(e)
 	}

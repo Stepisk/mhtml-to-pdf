@@ -1,4 +1,7 @@
 /images
+/.vscode
 *.html
 *.mht
 *.mhtml
+*.pdf
+*.exe

@@ -1,5 +1,7 @@
-# mhtml-to-html
-This command line converts .mhtml to .html
+# mhtml-to-pdf
+This command line converts .mhtml to .pdf
+
+### Based on [github.com/gonejack/mhtml-to-html](https://github.com/gonejack/mhtml-to-html)
 
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gonejack/mhtml-to-html)
 ![Build](https://github.com/gonejack/mhtml-to-html/actions/workflows/go.yml/badge.svg)
@@ -7,15 +9,15 @@ This command line converts .mhtml to .html
 
 ### Install
 ```shell
-> go get github.com/gonejack/mhtml-to-html
+> go get github.com/stepisk/mhtml-to-pdf
 ```
 
 ### Usage
 ```shell
-> mhtml-to-html *.mht
+> mhtml-to-pdf *.mht
 ```
 ```shell
-> mhtml-to-html *.mhtml
+> mhtml-to-pdf *.mhtml
 ```
 ```
 Flags:
